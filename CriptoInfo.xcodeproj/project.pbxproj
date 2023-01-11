@@ -13,10 +13,12 @@
 		A136D482296EEBE400D61AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A136D480296EEBE400D61AC6 /* Main.storyboard */; };
 		A136D484296EEBE500D61AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A136D483296EEBE500D61AC6 /* Assets.xcassets */; };
 		A136D487296EEBE500D61AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A136D485296EEBE500D61AC6 /* LaunchScreen.storyboard */; };
+		A136D490296EEC5C00D61AC6 /* RequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136D48F296EEC5C00D61AC6 /* RequestViewModel.swift */; };
+		A15FC617296EFCB4005037BD /* CriptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15FC616296EFCB4005037BD /* CriptoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A136D477296EEBE400D61AC6 /* Bitcoin Value.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Value.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A136D477296EEBE400D61AC6 /* CriptoInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriptoInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A136D47A296EEBE400D61AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A136D47C296EEBE400D61AC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A136D47E296EEBE400D61AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		A136D483296EEBE500D61AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A136D486296EEBE500D61AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A136D488296EEBE500D61AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136D48F296EEC5C00D61AC6 /* RequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewModel.swift; sourceTree = "<group>"; };
+		A15FC616296EFCB4005037BD /* CriptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		A136D478296EEBE400D61AC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A136D477296EEBE400D61AC6 /* Bitcoin Value.app */,
+				A136D477296EEBE400D61AC6 /* CriptoInfo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 				A136D483296EEBE500D61AC6 /* Assets.xcassets */,
 				A136D485296EEBE500D61AC6 /* LaunchScreen.storyboard */,
 				A136D488296EEBE500D61AC6 /* Info.plist */,
+				A136D48F296EEC5C00D61AC6 /* RequestViewModel.swift */,
+				A15FC616296EFCB4005037BD /* CriptoTableViewController.swift */,
 			);
 			path = "Bitcoin Value";
 			sourceTree = "<group>";
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A136D476296EEBE400D61AC6 /* Bitcoin Value */ = {
+		A136D476296EEBE400D61AC6 /* CriptoInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A136D48B296EEBE500D61AC6 /* Build configuration list for PBXNativeTarget "Bitcoin Value" */;
+			buildConfigurationList = A136D48B296EEBE500D61AC6 /* Build configuration list for PBXNativeTarget "CriptoInfo" */;
 			buildPhases = (
 				A136D473296EEBE400D61AC6 /* Sources */,
 				A136D474296EEBE400D61AC6 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bitcoin Value";
+			name = CriptoInfo;
 			productName = "Bitcoin Value";
-			productReference = A136D477296EEBE400D61AC6 /* Bitcoin Value.app */;
+			productReference = A136D477296EEBE400D61AC6 /* CriptoInfo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A136D472296EEBE400D61AC6 /* Build configuration list for PBXProject "Bitcoin Value" */;
+			buildConfigurationList = A136D472296EEBE400D61AC6 /* Build configuration list for PBXProject "CriptoInfo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A136D476296EEBE400D61AC6 /* Bitcoin Value */,
+				A136D476296EEBE400D61AC6 /* CriptoInfo */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +146,8 @@
 			files = (
 				A136D47F296EEBE400D61AC6 /* ViewController.swift in Sources */,
 				A136D47B296EEBE400D61AC6 /* AppDelegate.swift in Sources */,
+				A15FC617296EFCB4005037BD /* CriptoTableViewController.swift in Sources */,
+				A136D490296EEC5C00D61AC6 /* RequestViewModel.swift in Sources */,
 				A136D47D296EEBE400D61AC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A136D472296EEBE400D61AC6 /* Build configuration list for PBXProject "Bitcoin Value" */ = {
+		A136D472296EEBE400D61AC6 /* Build configuration list for PBXProject "CriptoInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A136D489296EEBE500D61AC6 /* Debug */,
@@ -346,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A136D48B296EEBE500D61AC6 /* Build configuration list for PBXNativeTarget "Bitcoin Value" */ = {
+		A136D48B296EEBE500D61AC6 /* Build configuration list for PBXNativeTarget "CriptoInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A136D48C296EEBE500D61AC6 /* Debug */,
